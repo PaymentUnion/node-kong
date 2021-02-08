@@ -23,7 +23,7 @@
     "rollup-plugin-terser": "^7.0.2"
   },
   "dependencies": {
-    "@payfun/node-kong": "^1.0.0",
+    "@payfun/node-kong": "^1.0.1",
     "node-kong-admin": "^1.0.3"
   }
 }

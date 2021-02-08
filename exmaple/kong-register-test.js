@@ -61,11 +61,5 @@ const KongOption = {
     upstream: ''
   }
 }
-
-// import {KongRegister} from '../dist/payfun.ops'
-// const {KongRegister} = require('../dist/payfun.kong.min')
-//
-// KongRegister(KongOption)
-
 const {KongRegister} = require('@payfun/node-kong')
 KongRegister(KongOption)
