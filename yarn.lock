@@ -829,6 +829,13 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@payfun/node-kong@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@payfun/node-kong/-/node-kong-1.0.0.tgz#2b9ad371bf57949ef112f3921f9558d5ce6daa20"
+  integrity sha512-hWLydMp6Gw458i0Q6ypvy2QfdlzKK4VKSQn9GR+2m6bcNUKRFiLqcJcQZpEJCBEUuL2MMrhx+anhj9R+gAnDBg==
+  dependencies:
+    node-kong-admin "^1.0.3"
+
 "@types/estree@*":
   version "0.0.46"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.46.tgz#0fb6bfbbeabd7a30880504993369c4bf1deab1fe"

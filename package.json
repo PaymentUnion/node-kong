@@ -1,7 +1,7 @@
 {
-  "name": "node-kong",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "@payfun/node-kong",
+  "version": "1.0.1",
+  "main": "./dist/payfun.kong.min.js",
   "scripts": {
     "dev": "rollup -wc rollup.config.dev.js",
     "build": "eslint ./src &&  rollup -c rollup.config.dev.js",
@@ -23,6 +23,7 @@
     "rollup-plugin-terser": "^7.0.2"
   },
   "dependencies": {
+    "@payfun/node-kong": "^1.0.0",
     "node-kong-admin": "^1.0.3"
   }
 }
