@@ -13,6 +13,7 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.12.13",
+    "@babel/plugin-transform-runtime": "^7.12.15",
     "@babel/preset-env": "^7.12.13",
     "eslint": "^7.19.0",
     "rollup-plugin-babel": "^4.4.0",
@@ -20,5 +21,8 @@
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "node-kong-admin": "^1.0.3"
   }
 }
